@@ -29,19 +29,30 @@ public class CaffesActivity extends AppCompatActivity {
         CustomAdapter adapter = new CustomAdapter(this, cafes);
         listView.setAdapter(adapter);
 
+       // TODO: refactor to use link from objects inside ArrayList
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-               // getResources().getStringArray(R.cafes.url);
-                //Toast.makeText(CaffesActivity.this, item.toString(), Toast.LENGTH_LONG).show();
-
-                //Uri uri = Uri.parse(item.toString());
-                //Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                //startActivity(intent);
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                adapterView.getItemAtPosition(position);
+                String link;
+                if (position == 0);{
+                    link = "https://www.facebook.com/catcaffezagreb/";
+                }
+                if (position == 1){
+                    link = "https://imperijakave.hr/";
+                }
+                if (position == 2){
+                    link = "https://www.facebook.com/bcczagreb/";
+                }
+                if (position == 3){
+                    link = "https://www.facebook.com/pages/Caffe-bar-Friends/190103947692978";
+                }
+                if (position == 4){
+                    link = "https://www.facebook.com/tolkienszagreb";
+                }
+                Uri uri = Uri.parse(link);
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
-
-
-
-
     }}
