@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/caffes"
+        style="@style/CategoryStyle"
+        android:background="@color/category_caffes"
+        android:text="@string/category_caffes" />
+
+    <TextView
+        android:id="@+id/shopping"
+        style="@style/CategoryStyle"
+        android:background="@color/category_shopping"
+        android:text="@string/category_shopping" />
+
+    <TextView
+        android:id="@+id/fun"
+        style="@style/CategoryStyle"
+        android:background="@color/category_fun"
+        android:text="@string/category_fun" />
+
+    <TextView
+        android:id="@+id/food"
+        style="@style/CategoryStyle"
+        android:background="@color/category_food"
+        android:text="@string/category_food" />
+
+    <TextView
+        android:id="@+id/parks"
+        style="@style/CategoryStyle"
+        android:background="@color/category_parks"
+        android:text="@string/category_parks" />
+
+    <TextView
+        android:id="@+id/museums"
+        style="@style/CategoryStyle"
+        android:background="@color/category_museums"
+        android:text="@string/category_museums" />
+
+
+</LinearLayout>

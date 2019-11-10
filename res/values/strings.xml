@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ZgEveryday</string>
+
+    <!-- Category name for caffes [CHAR LIMIT=20] -->
+    <string name="category_caffes">Caffes</string>
+
+    <!-- Category name for shopping [CHAR LIMIT=20] -->
+    <string name="category_shopping">Shopping</string>
+
+    <!-- Category name for fun [CHAR LIMIT=20] -->
+    <string name="category_fun">Fun</string>
+
+    <!-- Category name for food [CHAR LIMIT=20] -->
+    <string name="category_food">Food</string>
+
+    <!-- Category name for parks [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for random [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
+</resources>

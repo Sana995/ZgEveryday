@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#E53935</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#B71C1C</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the cafes category -->
+    <color name="category_caffes">#FD8E09</color>
+
+    <!-- Background color for the shopping category -->
+    <color name="category_shopping">#5D4037</color>
+
+    <!-- Background color for the fun category -->
+    <color name="category_fun">#BA68C8</color>
+
+    <!-- Background color for the food category -->
+    <color name="category_food">#2196F3</color>
+
+    <!-- Background color for the parks category -->
+    <color name="category_parks">#66BB6A</color>
+
+    <!-- Background color for the random category -->
+    <color name="category_museums">#FF1744</color>
+</resources>
